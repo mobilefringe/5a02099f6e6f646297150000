@@ -470,6 +470,9 @@ a {
     .footer_address, .footer_logo {
         margin-bottom: 65px;
         text-align: center;
+        img {
+            max-width: 104px;
+        }
     }
     .contest_btn {
         padding-top: 10px;
