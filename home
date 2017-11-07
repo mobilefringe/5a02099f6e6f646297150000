@@ -1,72 +1,72 @@
-<!--<div class="home_banner">   -->
-<!--    <div class="flexslider">-->
-<!--        <ul class="slides" id="home_banner">-->
-<!--            <script id="banner_template" type="x-tmpl-mustache/text">-->
-<!--                <li>-->
-<!--                    <a href="{{url}}" {{css}} onclick="{{noLink}}">-->
-<!--                        <div class="banner_img" style="background-image: url({{image_url}});"-->
-<!--                    </a>-->
-<!--                </li>-->
-<!--            </script>-->
-<!--        </ul>-->
-<!--    </div>-->
-<!--</div>-->
 <div class="home_banner">   
     <div class="flexslider">
-        <ul class="slides">
-            <li>
-                <a href="{{url}}">
-                    <div class="banner_img" style="background-image: url('//codecloud.cdn.speedyrails.net/sites/59d3dc256e6f6459f8960000/image/jpeg/1509033478000/DiningBanner.jpg');"></div>
-                </a>
-            </li>
-            <li>
-                <a href="{{url}}">
-                    <div class="banner_img" style="background-image: url('//codecloud.cdn.speedyrails.net/sites/59d3dc256e6f6459f8960000/image/jpeg/1509033478000/Fitness.jpg');"></div>
-                </a>
-            </li>
-            <li>
-                <a href="{{url}}">
-                    <div class="banner_img" style="background-image: url('//codecloud.cdn.speedyrails.net/sites/59d3dc256e6f6459f8960000/image/jpeg/1509033478000/Fashion.jpg');"></div>
-                </a>
-            </li>
-            <li>
-                <a href="{{url}}">
-                    <div class="banner_img" style="background-image: url('//codecloud.cdn.speedyrails.net/sites/59d3dc256e6f6459f8960000/image/jpeg/1509033478000/Cinema.jpg');"></div>
-                </a>
-            </li>
+        <ul class="slides" id="home_banner">
+            <script id="banner_template" type="x-tmpl-mustache/text">
+                <li>
+                    <a href="{{url}}" {{css}} onclick="{{noLink}}">
+                        <div class="banner_img" style="background-image: url({{image_url}});"
+                    </a>
+                </li>
+            </script>
         </ul>
     </div>
 </div>
+<!--<div class="home_banner">   -->
+<!--    <div class="flexslider">-->
+<!--        <ul class="slides">-->
+<!--            <li>-->
+<!--                <a href="{{url}}">-->
+<!--                    <div class="banner_img" style="background-image: url('//codecloud.cdn.speedyrails.net/.jpg');"></div>-->
+<!--                </a>-->
+<!--            </li>-->
+<!--            <li>-->
+<!--                <a href="{{url}}">-->
+<!--                    <div class="banner_img" style="background-image: url('//codecloud.cdn.speedyrails.net/');"></div>-->
+<!--                </a>-->
+<!--            </li>-->
+<!--            <li>-->
+<!--                <a href="{{url}}">-->
+<!--                    <div class="banner_img" style="background-image: url('//codecloud.cdn.speedyrails.net/');"></div>-->
+<!--                </a>-->
+<!--            </li>-->
+<!--            <li>-->
+<!--                <a href="{{url}}">-->
+<!--                    <div class="banner_img" style="background-image: url('//codecloud.cdn.speedyrails.net/');"></div>-->
+<!--                </a>-->
+<!--            </li>-->
+<!--        </ul>-->
+<!--    </div>-->
+<!--</div>-->
 <div class="feature_container">
     <div class="content_container">
-        <!--<div class="flex_container">-->
-        <!--    <div id="feature_container">-->
-        <!--        <script id="feature_template" type="x-tmpl-mustache/text">-->
-        <!--            <div class="width_30">-->
-        <!--                <a href="{{url}}">-->
-        <!--                    <img src="{{image_url}}" alt="{{name}}"/>-->
-        <!--                </a>-->
-        <!--            </div>-->
-        <!--        </script>-->
-        <!--    </div>-->
-        <!--</div>-->
         <div class="flex_container">
-            <div class="width_30">
-                <a href="/stores">
-                    <img src="//codecloud.cdn.speedyrails.net/sites/5a02099f6e6f646297150000/image/jpeg/1509743266000/Shop.jpg" alt="{{name}}"/>
-                </a>
-            </div>
-            <div class="width_30">
-                <a href="/stores/10dundaseast-cineplex-cinemas-yonge-dundas-and-vip">
-                    <img src="//codecloud.cdn.speedyrails.net/sites/5a02099f6e6f646297150000/image/jpeg/1509743265000/Cinema.jpg" alt="{{name}}"/>
-                </a>
-            </div>
-            <div class="width_30">
-                <a href="/find_us">
-                    <img src="//codecloud.cdn.speedyrails.net/sites/5a02099f6e6f646297150000/image/jpeg/1509743266000/FindUs.jpg" alt="{{name}}"/>
-                </a>
+            <div id="feature_container">
+                <script id="feature_template" type="x-tmpl-mustache/text">
+                    <div class="width_30">
+                        <a href="{{url}}">
+                            <img src="{{image_url}}" alt="{{name}}"/>
+                        </a>
+                    </div>
+                </script>
             </div>
         </div>
+        <!--<div class="flex_container">-->
+        <!--    <div class="width_30">-->
+        <!--        <a href="/stores">-->
+        <!--            <img src="//codecloud.cdn.speedyrails.net/" alt="{{name}}"/>-->
+        <!--        </a>-->
+        <!--    </div>-->
+        <!--    <div class="width_30">-->
+        <!--        <a href="">-->
+        <!--            <img src="//codecloud.cdn.speedyrails.net/" alt="{{name}}"/>-->
+        <!--        </a>-->
+        <!--    </div>-->
+        <!--    <div class="width_30">-->
+        <!--        <a href="/find_us">-->
+        <!--            <img src="//codecloud.cdn.speedyrails.net/" alt="{{name}}"/>-->
+        <!--        </a>-->
+        <!--    </div>-->
+        <!--</div>-->
     </div>
 </div>
 <div class="content_container">
