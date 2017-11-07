@@ -437,6 +437,7 @@ function renderLogoScroll(container, template, collection){
 }  
             
 function renderPromotions(container, template, collection){
+    var mall_name = getPropertyDetails().name;
     var item_list = [];
     var item_rendered = [];
     var template_html = $(template).html();
@@ -452,7 +453,7 @@ function renderPromotions(container, template, collection){
                 val.image_url = val.promo_image_url_abs;
             }
         } else {
-            val.store_name = "10 Dundas East";
+            val.store_name = mall_name;
             if(val.promo_image_url_abs.indexOf('missing.png') > 0){
                 val.image_url = default_image.image_url;
             } else {
