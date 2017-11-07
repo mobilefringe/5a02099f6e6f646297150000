@@ -54,7 +54,7 @@ function show_content() {
 }
 
 var default_image = {
-    "image_url" : "//codecloud.cdn.speedyrails.net/ ",
+    "image_url" : "//codecloud.cdn.speedyrails.net/ ", //Add default image
 }
 
 function get_instagram(url, total, size, callback){
