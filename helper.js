@@ -54,7 +54,7 @@ function show_content() {
 }
 
 var default_image = {
-    "image_url" : "//codecloud.cdn.speedyrails.net/sites/59d3dc256e6f6459f8960000/image/jpeg/1508432729000/10dundas_default.jpg",
+    "image_url" : "//codecloud.cdn.speedyrails.net/ ",
 }
 
 function get_instagram(url, total, size, callback){
