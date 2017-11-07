@@ -354,6 +354,7 @@ function renderPosts(container, template, collection){
 }
 
 function renderJobs(container, template, collection){
+    var mall_name = getPropertyDetails().name;
     var item_list = [];
     var item_rendered = [];
     var template_html = $(template).html();
@@ -363,7 +364,7 @@ function renderJobs(container, template, collection){
             val.store_name = getStoreDetailsByID(val.jobable_id).name;
             val.store_slug = getStoreDetailsByID(val.jobable_id).slug;
         } else {
-            val.store_name = "10 Dundas East";
+            val.store_name = mall_name;
         }
         
         var show_date = moment(val.show_on_web_date);
