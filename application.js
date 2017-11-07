@@ -383,6 +383,7 @@ function renderJobs(container, template, collection){
 }
 
 function renderJobDetails(container, template, collection){
+    var mall_name = getPropertyDetails().name;
     var item_list = [];
     var item_rendered = [];
     var template_html = $(template).html();
@@ -399,7 +400,7 @@ function renderJobDetails(container, template, collection){
             //     val.image_url = store_details.store_front_url_abs;
             // }
         } else {
-            val.store_name = "10 Dundas East";
+            val.store_name = mall_name;
             // val.image_url = default_image;
         }
         
