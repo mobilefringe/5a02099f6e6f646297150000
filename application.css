@@ -238,6 +238,7 @@ a {
     .logo {
         padding: 18px 0;
         max-width: 100%;
+        max-width: 78px;
     }
 }
 #mobile_search {
