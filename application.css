@@ -232,7 +232,7 @@ a {
 }
 .logo_container {
     padding-right: 20px;
-    width: 180px;
+    width: 200px;
     display: inline-block;
     border-right: 1px solid $accent;
     .logo {
