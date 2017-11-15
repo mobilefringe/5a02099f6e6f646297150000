@@ -232,13 +232,13 @@ a {
 }
 .logo_container {
     padding-right: 20px;
-    width: 265px;
+    width: 180px;
     display: inline-block;
     border-right: 1px solid $accent;
     .logo {
         padding: 10px 0px 10px 0px;
         max-width: 100%;
-        max-width: 200px;
+        max-width: 180px;
     }
 }
 #mobile_search {
