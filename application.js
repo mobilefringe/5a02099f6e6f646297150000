@@ -573,7 +573,7 @@ function renderStoreList(container, template, collection, type){
         if(val.phone != ""){
             val.phone_exist = "display: inline";
         } else {
-            val.phone_exist = "display: none";
+            // val.phone_exist = "display: none";
         }
         
         if(val.total_published_promos != null){
