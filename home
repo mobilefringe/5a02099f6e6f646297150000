@@ -84,7 +84,7 @@
         </div>
         <div class="width_50">
             <div class="home_promos">
-                <h2 class="details_title">Restaurants</h2>
+                <h2 class="details_title">Restaurants & Eateries</h2>
                 <div id="home_dine_container" class="dine_container margin_20">
                     <script id="home_dine_template" type="x-tmpl-mustache/text">
                         <div class="margin_30">
@@ -94,7 +94,7 @@
                         </div>
                     </script>
                 </div>
-                <p class="home_see_all"><a href="/dine">See all restaurants </a> <i class="fa fa-angle-right" aria-hidden="true"></i></p>
+                <p class="home_see_all"><a href="/dine">See all Restaurants & Eateries </a> <i class="fa fa-angle-right" aria-hidden="true"></i></p>
             </div>
         </div>
     </div>
