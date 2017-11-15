@@ -2,8 +2,7 @@
 This is a Saas file has an 'Asset Type' of SCSS. CSS will be compiled when saving.
 For more information on asset types please see http://www.getcodecloud.com/docs#SaSS
 */
-@import url('<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 
 @font-face {
 	font-family: 'HelveticaNeue';
