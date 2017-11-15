@@ -236,7 +236,7 @@ a {
     display: inline-block;
     border-right: 1px solid $accent;
     .logo {
-        padding: 20px 20px;
+        padding: 0px 0px;
         max-width: 100%;
         max-width: 200px;
     }
