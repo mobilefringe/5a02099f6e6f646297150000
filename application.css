@@ -5,7 +5,7 @@ For more information on asset types please see http://www.getcodecloud.com/docs#
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
 @font-face {
-	font-family: 'HelveticaNeue';
+	font-family: 'Roboto';
 	src: url('//codecloud.cdn.speedyrails.net/sites/59d3dc256e6f6459f8960000//1507088676000/HelveticaNeueLTStd-Lt.eot');
 	src: url('//codecloud.cdn.speedyrails.net/sites/59d3dc256e6f6459f8960000//1507088676000/HelveticaNeueLTStd-Lt.eot?#iefix') format('embedded-opentype'),
 		url('//codecloud.cdn.speedyrails.net/sites/59d3dc256e6f6459f8960000/application/font-woff/1507088676000/HelveticaNeueLTStd-Lt.woff') format('woff'),
@@ -21,7 +21,7 @@ $primary_shade: #004B68;
 $accent: #6b6c70;
 
 body {
-    font-family: 'HelveticaNeue', 'Arial', sans-serif;
+    font-family: 'Roboto',sans-serif;
     font-size: 18px;
     line-height: 1.67;
     color: #4a4a4a;
@@ -29,11 +29,11 @@ body {
     box-sizing: border-box;
 }
 h1 {
-    font-family: Georgia;
+    font-family: Roboto;
 	font-size: 30px;
 }
 h2 {
-    font-family: Georgia;
+    font-family: Roboto;
     font-size: 24px;
 }
 h3 {
@@ -842,7 +842,7 @@ a {
 
 /* *** JOBS *** */
 .jobs_store_name {
-    font-family: Georgia;
+    font-family: Roboto;
 }
 
 /* *** MAP *** */
