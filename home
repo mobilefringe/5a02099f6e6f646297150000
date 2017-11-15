@@ -16,17 +16,17 @@
         <ul class="slides">
             <li>
                 <a href="{{url}}">
-                    <div class="banner_img" style="background-image: url('//codecloud.cdn.speedyrails.net/.jpg');"></div>
+                    <div class="banner_img" style="background-image: url('//codecloud.cdn.speedyrails.net/sites/5a02099f6e6f646297150000/image/png/1510775101000/banner2.png');"></div>
                 </a>
             </li>
             <li>
                 <a href="{{url}}">
-                    <div class="banner_img" style="background-image: url('//codecloud.cdn.speedyrails.net/');"></div>
+                    <div class="banner_img" style="background-image: url('//codecloud.cdn.speedyrails.net/sites/5a02099f6e6f646297150000/image/png/1510775102000/banner4.png');"></div>
                 </a>
             </li>
             <li>
                 <a href="{{url}}">
-                    <div class="banner_img" style="background-image: url('//codecloud.cdn.speedyrails.net/');"></div>
+                    <div class="banner_img" style="background-image: url('//codecloud.cdn.speedyrails.net/sites/5a02099f6e6f646297150000/image/png/1510775102000/banner3.png');"></div>
                 </a>
             </li>
             <li>
