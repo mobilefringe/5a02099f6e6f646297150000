@@ -231,14 +231,14 @@ a {
     }
 }
 .logo_container {
-    padding-right: 20px;
-    width: 200px;
+    padding-right: 0px;
+    width: 150px;
     display: inline-block;
     border-right: 1px solid $accent;
     .logo {
         padding: 10px 0px 10px 0px;
         max-width: 100%;
-        max-width: 150px;
+        max-width: 100px;
     }
 }
 #mobile_search {
