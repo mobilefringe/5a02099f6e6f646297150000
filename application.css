@@ -231,8 +231,8 @@ a {
     }
 }
 .logo_container {
-    padding-right: 0px;
-    width: 150px;
+    padding-right: 10px;
+    width: 120px;
     display: inline-block;
     border-right: 1px solid $accent;
     .logo {
