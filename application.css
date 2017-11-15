@@ -1083,10 +1083,20 @@ a {
 .store_logo_container.no_hover {
     background: transparent;
 }
+// .store_list_promos {
+//     width: 100%;
+//     position: absolute;
+//     bottom: -30px;
+//     text-align: center;
+// }
 .store_list_promos {
+    margin-bottom: 30px;
     width: 100%;
-    position: absolute;
-    bottom: -30px;
+    max-height: 30px;
+    // position: absolute;
+    // bottom: -30px;
+    border: 1px solid $primary;
+    background: $primary;
     text-align: center;
 }
 .store_coming_soon {
