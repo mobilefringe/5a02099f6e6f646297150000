@@ -129,9 +129,7 @@
             renderGeneral('#feature_container','#feature_template', three_items);
             renderGeneral('#single_feature_container','#single_feature_template', single_item);
 
-            // RESTAURANTS //
-            // var restaurants = getStoresListByCategoryID(2538);
-            
+            // RESTAURANTS LIST //
             var cat_one = getStoresListByCategoryID(1600);
             var cat_two = getStoresListByCategoryID(1686);
             var cat_three = getStoresListByCategoryID(2146);
